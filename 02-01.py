@@ -11,7 +11,7 @@ print(">>>>")
 
 # i)
 print("Mean values are:")
-print(df.describe())[['prate', 'mrate']])
+print(df.describe()[['prate', 'mrate']])
 print(">>>>")
 
 # ii) - v)
