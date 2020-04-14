@@ -7,7 +7,7 @@ import pandas as pd
 
 #i)
 # Read in df
-file = "/Users/ilianaradeva/Desktop/Work/Woolridge_Datasets/data/401ksubs.dta"
+file = "./data/401ksubs.dta"
 df = pd.read_stata(file)
 print(df.head())
 print(">>>>")
@@ -34,7 +34,7 @@ scipy.stats.skew(log_income)
 # ii) Now we want to use bwght2.dta to find the skewness measures of bwght and log(bwght). 
 
 # Read in df
-next_file = "/Users/ilianaradeva/Desktop/Work/Woolridge_Datasets/data/bwght2.dta"
+next_file = "./data/bwght2.dta"
 df2 = pd.read_stata(next_file)
 print(df2.head())
 print(">>>>")
