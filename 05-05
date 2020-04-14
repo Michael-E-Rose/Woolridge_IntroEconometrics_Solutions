@@ -22,4 +22,4 @@ df.educ.unique()
 educ = df.educ
 seaborn.distplot(educ, bins=None, hist=True, kde=True)
 
-#The variable educ does not seem to follow a normal distribution
+#The variable educ does not seem to follow a normal distribution.
