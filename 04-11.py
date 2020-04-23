@@ -22,6 +22,7 @@ print(">>>>")
 # iii)
 lm = smf.ols('educ ~ motheduc + fatheduc + abil + np.power(abil, 2) + tuit17 + tuit18', data=df).fit()
 print(lm.summary())
+print("F-test of joint statistical significance:")
 print(lm.f_test('(tuit17 = 0), (tuit18 = 0)'))
 print(">>>>")
 
